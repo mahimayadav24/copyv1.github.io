@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body, html {
+    overflow-x: hidden;
+}
+
+
+@font-face {
+    font-family: Ubuntu__bold;
+    src: url('../Fonts/Ubuntu-Bold.ttf');
+}
+
+@font-face {
+    font-family: Ubuntu__light;
+    src: url('../Fonts/Ubuntu-Light.ttf');
+}
+
+@font-face {
+    font-family: Ubuntu__medium;
+    src: url('../Fonts/Ubuntu-Medium.ttf');
+}
+
+@font-face {
+    font-family: Ubuntu__regular;
+    src: url('../Fonts/Ubuntu-Regular.ttf');
+}
+
+.wrapper {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.sect {
+    background-image: url(../Assets/Rectangle\ 12.png);
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.grid-sect {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.ssts {
+    background-image: url('../Assets/young-beautiful-woman-with-flowers-near-face 1.png');
+    background-repeat: no-repeat;
+    background-position: 60%;
+    position: relative;
+    z-index: 9;
+}
+
+.mult {
+    text-align: center;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    padding: 20px 30px;
+    position: relative;
+    top: 0;
+    width: 90%;
+}
+
+.borderr {
+    position: absolute;
+    top: -13px;
+    left: 9px;
+    right: -20px;
+    bottom: 15px;
+    border-radius: 20px;
+    border: 4px solid #F86984;
+    opacity: 0.6;
+}
+
+.content h2 {
+    color: rgba(248, 105, 132, 1);
+    font-family: 'Ubuntu__bold';
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+    font-size: calc(22pt + 0.15vw);
+}
+
+.mult .test {
+    color: rgba(140, 12, 36, 1);
+    font-family: 'Ubuntu__medium';
+    font-weight: 500;
+    font-size: calc(15pt + 0.15vw);
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+}
+
+
+.mult .test span {
+    font-family: 'Ubuntu__bold';
+    font-weight: 700;
+}
+
+.para-text {
+    background-color: rgba(255, 168, 189, 1);
+    padding: 20px 10px;
+}
+
+.para-text p {
+    color: #ffffff;
+    margin-bottom: 0;
+    font-family: 'Ubuntu__bold';
+    font-weight: 700;
+    font-size: calc(15pt + 0.15vw);
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+}
+
+.mult h5 {
+    color: #8C0C24;
+    font-family: 'Ubuntu__medium';
+    font-weight: 500;
+    font-size: calc(15pt + 0.15vw);
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+}
+
+.mult h5 span {
+    color: #F86984;
+    font-family: 'Ubuntu__bold';
+    font-weight: 700;
+}
+
+.mult .qust {
+    text-align: initial;
+    max-width: 90%;
+    padding: 0px 0px 0px 50px;
+}
+
+.listing li:before {
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-image: url(../Assets/check-mark\ 6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    -webkit-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+    transform: translateY(3px);
+}
+
+
+.listing ul li {
+    list-style: none;
+    list-style: none;
+    line-height: 28px;
+    font-size: calc(14pt + 0.15vw);
+    font-family: 'Ubuntu__medium';
+    letter-spacing: 0.02em;
+    color: #8C0C24;
+}
+
+.listing ol, ul {
+    padding-left: 0.5rem;
+}
+
+.Bg__Pink {
+    background-color: #e9bdad5e;
+    min-height: auto;
+    margin-left: -46.75rem;
+    position: relative;
+    text-align: justify;
+    padding-bottom: 3rem;
+}
+
+.gr {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Bg__Pink p {
+    color: rgba(149, 83, 151, 1);
+    font-family: 'Ubuntu__bold';
+    font-weight: 700;
+    font-size: calc(16pt + 0.15vw);
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+}
+
+.msts {
+    max-width: 80%;
+    z-index: 999999;
+}
+
+.btnsr .btn-primary {
+    width: 100%;
+    background: #B942BC;
+    -webkit-box-shadow: 0px 2px 24px rgba(45, 45, 45, 0.25);
+    box-shadow: 0px 2px 24px rgba(45, 45, 45, 0.25);
+    border-radius: 15px;
+    border-color: transparent;
+    padding: 12px;
+    color: rgba(255, 255, 255, 1);
+    font-size: calc(13pt + 0.15vw);
+    letter-spacing: 0.03em;
+    font-family: 'Ubuntu__bold';
+    font-weight: 700;
+}
+
+.btnsr .btn-primary:hover {
+    background: rgba(255, 168, 189, 1);
+}
+
+
+
+
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.form-control {
+    padding: 12px 20px;
+    border-radius: 15px;
+    border-color: rgba(149, 149, 149, 1);
+    color: rgba(149, 149, 149, 1);
+    font-family: 'Ubuntu__medium';
+    letter-spacing: 0.02em;
+    font-size: calc(12pt + 0.15vw);
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 1399.98px) {
+    .ssts {
+        background-position: 70% 1px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .content h2 {
+        font-size: calc(17pt + 0.15vw);
+    }
+
+    .ssts {
+        background-position: 78% 1px;
+    }
+
+    .mult .qust {
+        max-width: 100%;
+        padding: 0px 0px 0px 10px;
+
+    }
+
+    .Bg__Pink p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .content {
+        width: 96%;
+    }
+
+    .ssts {
+        display: none;
+    }
+
+    .grid-sect {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gr {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Bg__Pink {
+        margin-left: 0rem;
+        position: initial;
+        width: 100%;
+    }
+
+    .msts {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 538px) {
+    .mult .test {
+        font-size: calc(12pt + 0.15vw);
+    }
+
+    .para-text p {
+        font-size: calc(12pt + 0.15vw);
+    }
+
+    .mult h5 {
+        font-size: calc(12pt + 0.15vw);
+    }
+
+    .listing ul li {
+        font-size: calc(12pt + 0.15vw);
+    }
+
+    .Bg__Pink p {
+        font-size: calc(12pt + 0.15vw);
+    }
+
+    .btnsr .btn-primary {
+        font-size: calc(11pt + 0.15vw);
+    }
+}
